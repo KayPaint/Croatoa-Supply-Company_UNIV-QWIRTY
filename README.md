@@ -1,10 +1,4 @@
-# Project name
-
-<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
-![GitHub contributors](https://img.shields.io/github/contributors/nicolerae/README-templateFSA.md)
-![GitHub stars](https://img.shields.io/github/stars/nicolerae/README-templateFSA.md?style=social)
-![GitHub forks](https://img.shields.io/github/forks/nicolerae/README-templateFSA.md?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/nicole_rae?style=social)
+# Project 02 - Qwirty
 
 <!-- PROJECT LOGO -->
 <br />
