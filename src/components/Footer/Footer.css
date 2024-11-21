@@ -14,14 +14,14 @@ section {
 
 .footer-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 h2 {
     color: white;
-    border-bottom: 4px white;
-    padding: 4px;
-    margin-bottom: 4px;
+    border-bottom: 4px solid white;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
     font-size: smaller;
     letter-spacing: 3px;
 }

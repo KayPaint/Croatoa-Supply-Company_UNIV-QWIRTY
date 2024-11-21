@@ -1,24 +1,31 @@
 .categories {
     display: flex;
-    flex-basis: 256px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-family: Dosis;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 4px;
     background-color: rgb(214, 212, 88);
+    padding: 10px 0;
+    flex-wrap: wrap;
 }
 
 .categories > a {
     font-size: 1.25rem;
     color: rgb(0, 0, 0);
+    flex: 1 1 auto;
+    max-width: 150px;
 }
 
 a {
-    padding: 5px;
+    padding: 10px 15px;
     border: 2px solid rgb(0, 0, 0);
-    margin: 2px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
 }
 
 a:hover {

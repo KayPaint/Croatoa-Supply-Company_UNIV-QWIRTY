@@ -4,11 +4,21 @@
     box-sizing: border-box;
   }
   
+  html, body, #root {
+    height: 100%;
+  }
+  
   body {
     background: #eee;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    min-height: 100%;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
   }
   
   header, footer { 
@@ -21,5 +31,6 @@
   
   main {
     display: flex;
-    flex: 1 0 auto;
+    flex: 1;
+    flex-direction: column;
   }
