@@ -1,21 +1,12 @@
 import React from 'react';
-import Header from './components/Header/Header';
-import Categories from './components/Categories/Categories';
-import Items from './components/Items/Items';
-import Footer from './components/Footer/Footer';
-import './index.css';
+import { Layout } from './components/layout/layout.js';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <main>
-        <Categories />
-        <Items />
-      </main>
-      <Footer />
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <Layout />
+        </div>
+    );
+};
 
 export default App;
